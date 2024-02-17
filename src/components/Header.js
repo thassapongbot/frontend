@@ -19,7 +19,7 @@ const Header = () => {
             <div className="col-sm-3">
                 <Link to='/'><img className="w-25 rounded" src="/imgs/logo.png" alt="logo"/></Link>
             </div>
-            <div className="col-sm-6"> <h2>Your real estate destination</h2></div>
+            <div className="col-sm-6"> <h2>Your real estate destination -test</h2></div>
             <div className="col-sm-3 d-flex justify-content-end">
             {
                 (sessionStorage.getItem("name")) 
